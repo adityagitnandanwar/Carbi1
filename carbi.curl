@@ -1,0 +1,16 @@
+curl "https://api.carbi.me/auth" ^
+  -X "OPTIONS" ^
+  -H "Connection: keep-alive" ^
+  -H "Pragma: no-cache" ^
+  -H "Cache-Control: no-cache" ^
+  -H "Accept: */*" ^
+  -H "Access-Control-Request-Method: POST" ^
+  -H "Access-Control-Request-Headers: content-type" ^
+  -H "Origin: https://carbi.me" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-site" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Referer: https://carbi.me/" ^
+  -H "Accept-Language: en-US,en;q=0.9,en-GB;q=0.8" ^
+  --compressed
